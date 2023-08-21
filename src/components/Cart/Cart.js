@@ -66,7 +66,7 @@ const Cart = (props) => {
   }
 
   const wholeCartModalContent = <>
-    {cartItems || <p>Please Add Items to Cart...</p>}
+    {cartItems}
       <div className={classes.total}>
         <span>Total Amount</span>
         <span>${totalAmount}</span>
